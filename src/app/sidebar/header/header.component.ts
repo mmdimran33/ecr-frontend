@@ -13,6 +13,7 @@ export class HeaderComponent implements OnInit {
   constructor(private formService: FormService) { }
 
   ngOnInit(): void {
+    console.log('ngOnInit invoked and testing!!!!!!!!!!!!!');
   }
 
   toggleSidebar() {
