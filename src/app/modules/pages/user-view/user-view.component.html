@@ -1,0 +1,44 @@
+<div class="container-fluid page">
+    <div class="d-flex page__box p-3 mt-2">User View</div>
+    <div class="page__content shadow p-3 position-relative">
+        <!-- <div class="page__content-data position-absolute text-center"> -->
+            <div class="page__content-data">
+                <div class="view-table">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>UserName</th>
+                          <th>EmailId</th>
+                          <th>PhoneNo</th>
+                          <th>Country</th>
+                          <!-- <th>Password</th> -->
+                          <th>WithDraw</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <!-- <tr>
+                          <td>John</td>
+                          <td>Doe</td>
+                          <td>john@example.com</td>
+                          <td>1234567890</td>
+                          <td>India</td>
+                          <td><a href="" [routerLink]="['/pages/withdraw']">WithDraw</a></td>
+                        </tr> -->
+                        <tr>
+                          <td>{{userData.userName}}</td>
+                          <td>{{userData.userEmailId}}</td>
+                          <td>{{userData.userPhoneNo}}</td>
+                          <td>{{userData.userCountry}}</td>
+                          <!-- <td>{{userData.userPassword}}</td> -->
+                          <td><a href="" [routerLink]="['/pages/withdraw']">WithDraw</a></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                </div>
+
+                <!-- <div>
+                  <button class="btn btn-secondary">Go TO Admin Pannel</button>
+                </div> -->
+        </div>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  mat-drawer {
+    width: 260px;
+  }
+  
+  mat-drawer-container {
+    height: 100%;
+  }
+  
+  mat-drawer {
+    /* background: #0f172a; */
+    background: #0e1317;
+  }
+
+
+  /* Media query */
+@media only screen and (max-width: 767px) {
+  mat-drawer {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  mat-drawer {
+    width: 125px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  mat-drawer {
+    width: 100px;
+  }
+}

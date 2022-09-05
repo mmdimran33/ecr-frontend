@@ -1,0 +1,103 @@
+
+.page {
+    color: white;
+    padding: 0 1rem;
+    background: #f1f5f9;
+}
+
+.page__box {
+    min-height: 120px;
+    background: #1e293b;
+    margin: 0 -1rem;
+    font-size: 36px;
+    font-family: "Jost", sans-serif;
+}
+
+.page__content {
+    min-height: calc(100vh - 178px);
+    border-radius: 10px;
+    margin-top: -2rem;
+    background: white;
+    color: black;
+    font-size: 2rem;
+}
+
+/* .page__content-data {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+
+/* Content CSS */
+
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
+    /* color: 0e1317; */
+    font-family: "Jost", sans-serif;
+}
+
+.section-title h2::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+
+.section-title h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #0e1317;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.about, .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about .content ul li {
+    padding-left: 28px;
+    position: relative;
+}
+
+.about .content ul li + li {
+    margin-top: 10px;
+}
+
+.about, .content ul i {
+    /* position: absolute; */
+    /* left: 0; */
+    /* top: 2px; */
+    /* font-size: 20px; */
+    font-size: 17px;
+    color: #0e1317;
+    /* line-height: 1; */
+    line-height: 1.4;
+}
+
+

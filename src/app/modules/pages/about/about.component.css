@@ -1,0 +1,262 @@
+
+.page {
+    color: white;
+    padding: 0 1rem;
+    background: #f1f5f9;
+}
+
+.page__box {
+    min-height: 120px;
+    /* background: #1e293b; */
+    background: #0e1317;
+    margin: 0 -1rem;
+    font-size: 36px;
+    font-family: "Jost", sans-serif;
+}
+
+.page__content {
+    min-height: calc(100vh - 178px);
+    border-radius: 10px;
+    margin-top: -2rem;
+    background: white;
+    color: black;
+    font-size: 2rem;
+}
+
+/* .page__content-data {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+
+/* Content CSS */
+
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
+    /* color: 0e1317; */
+    font-family: "Jost", sans-serif;
+}
+
+.section-title h2::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+
+.section-title h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #0e1317;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.about, .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about .content ul li {
+    padding-left: 28px;
+    position: relative;
+}
+
+.about .content ul li + li {
+    margin-top: 10px;
+}
+
+.about, .content ul i {
+    /* position: absolute; */
+    /* left: 0; */
+    /* top: 2px; */
+    /* font-size: 20px; */
+    font-size: 17px;
+    color: #0e1317;
+    /* line-height: 1; */
+    line-height: 1.4;
+}
+
+
+.main {
+    text-align: center;
+}
+
+.our-vision {
+    font-size: 18px;
+    line-height: 115%;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+    margin-bottom: 24px;
+    color: #1199FA;
+    padding-top: 20px;
+    font-family: "Jost", sans-serif;
+}
+
+.heading-cryptocurrency {
+    font-size: 48px;
+    line-height: 125%;
+    letter-spacing: -0.015em;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: #F4F4F4;
+    font-family: "Jost", sans-serif;
+}
+
+.our-mission {
+    font-size: 18px;
+    line-height: 115%;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+    margin-bottom: 24px;
+    color: #1199FA;
+    padding-top: 20px;
+    font-family: "Jost", sans-serif;
+}
+
+.heading-accelerate {
+    font-size: 48px;
+    line-height: 125%;
+    letter-spacing: -0.015em;
+    font-weight: 600;
+    color: #F4F4F4;
+    margin-bottom: 56px;
+    font-family: "Jost", sans-serif;
+}
+
+.heading-matters {
+    font-size: 18px;
+    line-height: 115%;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #1199FA;
+    font-family: "Jost", sans-serif;
+}
+
+.heading-powerd-by-crypto {
+    font-size: 40px;
+    line-height: 125%;
+    letter-spacing: -0.015em;
+    font-weight: 600;
+    margin-bottom: 56px;
+    color: #F4F4F4;
+    font-family: "Jost", sans-serif;
+}
+
+.our-parteners {
+    font-size: 18px;
+    line-height: 115%;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #1199FA;
+    font-family: "Jost", sans-serif;
+}
+
+.heading-partners {
+    font-size: 48px;
+    line-height: 125%;
+    letter-spacing: -0.015em;
+    font-weight: 600;
+    margin-bottom: 56px;
+    color: #F4F4F4;
+    font-family: "Jost", sans-serif;
+}
+
+.our-team {
+    font-size: 18px;
+    line-height: 115%;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #1199FA;
+    font-family: "Jost", sans-serif;
+}
+
+.one-vision {
+    font-size: 48px;
+    letter-spacing: -0.015em;
+    font-weight: 600;
+    margin-bottom: 36px;
+    color: #F4F4F4;
+    font-family: "Jost", sans-serif;
+}
+
+.heading-building {
+    font-size: 18px;
+    line-height: 115%;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+    color: #F4F4F4;
+}
+
+.million {
+    margin: 0px;
+    font-family: "Acumin Pro";
+    font-size: 112px;
+    line-height: 90%;
+    font-weight: bold;
+    color: rgb(17, 153, 250);
+}
+
+.user {
+    font-size: 16px;
+    color: #F4F4F4;
+    margin-bottom:30px;
+}
+
+.ninty {
+    margin: 0px;
+    font-family: "Acumin Pro";
+    font-size: 112px;
+    line-height: 90%;
+    font-weight: bold;
+    color: rgb(17, 153, 250);
+}
+
+.countries {
+    font-size: 16px;
+    color: #F4F4F4;
+    margin-bottom:40px;
+}
+
+.our-value {
+    padding-bottom: 27px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 115%;
+    letter-spacing: -0.015em;
+    color: rgb(244, 244, 244);
+}
+
+.content-para p {
+    font-size: 23px;
+    line-height: 125%;
+    color: #F4F4F4;
+    margin-bottom: 35px;
+}

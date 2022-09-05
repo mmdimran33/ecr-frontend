@@ -1,0 +1,51 @@
+<mat-nav-list class="p-0">
+    <!-- <div class="logo py-4"> -->
+      <div class="logo">
+      <!-- <div class="logo"> -->
+      <!-- <img src="../../assets/logo.svg" alt="Company Logo" /> -->
+      <!-- <img src="../../assets/images/2ECR_logo.jpg" alt="Company Logo" /> -->
+      <!-- <img src="../../assets/images/rsz_2ecr1.png" alt="Company Logo" /> -->
+      <img src="../../assets/images/octa_vision_logo.png" alt="Company Logo" />
+    </div>
+    <mat-divider></mat-divider>
+    <h2 matSubheader class="mt-2">APPLICATIONS</h2>
+  
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/pages/home">
+      <mat-icon>home</mat-icon> Home
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" *ngIf="roles == 'ROLE_ADMIN'" routerLink="/pages/admin-panel">
+      <mat-icon>account_box</mat-icon> Admin
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/pages/about">
+      <!-- <mat-icon>dashboard</mat-icon> About -->
+      <mat-icon>assessment</mat-icon> About
+    </a>
+    
+    <!-- <a mat-list-item routerLinkActive="list-item-active" routerLink="/pages/account-types">
+      <mat-icon>manage_accounts</mat-icon> Account Types
+    </a> -->
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/pages/products">
+      <mat-icon>production_quantity_limits</mat-icon> Products
+    </a>
+
+    <!-- <a mat-list-item routerLinkActive="list-item-active" routerLink="/pages/platforms">
+      <mat-icon>account_circle</mat-icon> Platforms
+    </a> -->
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/pages/contact">
+      <mat-icon>contact_page</mat-icon> Contact US
+    </a>
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/form/login">
+      <mat-icon>login</mat-icon> Login
+    </a>
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/form/signup">
+      <mat-icon>app_registration</mat-icon> Signup
+    </a>
+
+    <!-- <a mat-list-item> <mat-icon>edit</mat-icon> Link 4 </a> -->
+    <!-- <a mat-list-item> <mat-icon>edit</mat-icon> Link 5 </a>
+    <a mat-list-item> <mat-icon>edit</mat-icon> Link 6 </a> -->
+  </mat-nav-list>
