@@ -29,3 +29,61 @@
     transform: translate(-50%, -50%);
 } */
 
+/* Cintentt CSS */
+
+#hero h2 {
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 50px;
+    font-size: 24px;
+    font-family: "Jost", sans-serif;
+}
+
+h1 {
+    font-family: "Jost", sans-serif;
+}
+
+.img-fluid {
+    /* max-width: 100%;
+    height: auto; */
+    width: 490px;
+    height: 268px;
+    margin-bottom: 16px;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    /* color: 0e1317; */
+    font-family: "Jost", sans-serif;
+}
+
+.section-title h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #0e1317;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.section-title h2::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
